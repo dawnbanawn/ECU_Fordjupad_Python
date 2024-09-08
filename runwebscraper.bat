@@ -1,3 +1,4 @@
+CD /d %~dp0
 @echo off
-"venv/scripts/python.exe" "web_scraper.py"
+"venv\Scripts\python.exe" "web_scraper.py"
 pause
