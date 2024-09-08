@@ -7,6 +7,9 @@ av symbolen $ som var en del av pris-stringen, vilket jag tillslut löste med hj
 En annan sak som var lite klurig var att ha doctest i ett separat skript, men man behövde ha doctest-koden under en funktion, så efter en god natts sömn så kom jag 
 på att kalla modulen och funktionen som ska testas -inuti en doctest-funktion i doctest-skriptet.
 
+När jag skulle lägga in funktionerna i try/exception, så blev det problem med variablernas scope, men jag fann
+rätt snabbt en lösning med 'global'.
+
 En sista sak var att jag använde relative path till min batch-fil, vilket inte fungerade med task scheduler, 
 så där fick jag googla fram en lösning så att natch-filen körs från rätt mapp.
 

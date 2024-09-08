@@ -1,31 +1,33 @@
-#https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 from bs4 import BeautifulSoup
 import logging
 import sqlite3
-# It helps sending http requests
+# This helps sending http requests.
 import requests
-# It Helps get the correct date/time
+# This Helps get the correct date/time.
 import datetime
 
 
-# Logging configuration
+# Logging configuration.
 LOG_FILENAME = 'log.out'
 logging.basicConfig(filename=LOG_FILENAME, level=logging.DEBUG)
 
-# Create a connection to the sqlite database
+# Create a connection to the sqlite database.
+# https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 con = sqlite3.connect("database.db")
 # Cursor helps to execute SQL statements. 
 cur = con.cursor()
 
-# url for a website to scrape from
+# Url for a website to scrape from.
 url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops"
 
+# Function to scrape, find specific data, and save it in lists.
 def get_data():
-    # Sending http requests to the url, which returns the content of the page
+    # Sending http requests to the url, which returns the content of the page.
     req = requests.get(url)
-    # Parse with the right type of parser, used for structuring data
+    # Parse with the right type of parser, used for structuring the data.
     doc = BeautifulSoup(req.text, "html.parser")
     # Find the correct html elements containing name/price.
+    # Global so that the variable can be used in other functions out of scope.
     global nameResult
     nameResult = doc.find_all("a", {"class": "title"})
     global priceResult
@@ -37,11 +39,11 @@ def get_data():
     else:
         return False
 
-# Function to save scarped data to database.
+# Function to save scraped data to the database.
 def save_to_database():
     # for loop with index to cycle through one of the equally long lists
     # save the data in the database in the correct columns, with the current date aswell.
-    # The $ is removed from price, and price is converted from text to float to be inserted in the REAl column in teh database.
+    # The $ is removed from price, and price is converted from text to float to be inserted in the REAl column in the database.
     for idx, item in enumerate(nameResult):
         cur.execute(
             "INSERT INTO laptops(name, price, date) VALUES(?, ?, ?)",
@@ -52,16 +54,16 @@ def save_to_database():
 
 # Exception is raised and logged if getting data doesnt succeed.
 try:
-    # Try to get data
+    # Call function to get the data.
     get_data()
 except:
     logging.debug('Get data did not succeed!')
     raise Exception('Get data did not succeed!')
-# If getting data went well next step is to try and save the data to sqlite.
+# If getting data went well, the next step is to try and save the data to sqlite.
 else: 
     # Exception is raised and logged if saving to database doesnt succeed.
     try:
-        # Try to save to database
+        # Call function to save to database.
         save_to_database()
     except:
         logging.debug('Saving to database did not succeed!')

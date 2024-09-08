@@ -1,8 +1,8 @@
-# https://realpython.com/python-doctest/
-# # import testmod for testing 
+# Import testmod for docctest testing.
 from doctest import testmod 
 
-# function for testing the data retrieving function.
+# Function for testing the data retrieving function.
+# https://realpython.com/python-doctest/
 def test_get_data():       
     """
     >>> import web_scraper
