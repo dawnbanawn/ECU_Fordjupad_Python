@@ -5,7 +5,7 @@ This is a web scraper that saves the name, price of laptops from a pre-determine
 
 Exceptions are raised and logged to a separate file.
 
-A .bat runs the web_scraper.py, but it points to a python.exe that might need a change depending on your paths.
+A .bat runs the web_scraper.py, but it points to a python.exe that might need a change depending on your environment path.
 
 Another script can be run to check the function that retrieves and process the scraped data.
 
