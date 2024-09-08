@@ -1,0 +1,20 @@
+--- Utmaningar du haft under arbetet samt hur du hanterat dem.
+
+Det mesta var ganska enkelt, men jag har pluggat Python och databaser under hela sommaren för att förbereda mig.
+Det var några saker som tog lite mer tid, t.ex. att jag först försökte skrapa upp priset med hjälp 
+av symbolen $ som var en del av pris-stringen, vilket jag tillslut löste med hjälp av regex, men sedan kom jag på att jag kan söka via element + en klass, och det såg mer tydligt ut i koden.
+
+En annan sak som var lite klurig var att ha doctest i ett separat skript, men man behövde ha doctest-koden under en funktion, så efter en god natts sömn så kom jag 
+på att kalla modulen och funktionen som ska testas -inuti en doctest-funktion i doctest-skriptet.
+
+
+--- Vilket betyg du anser att du skall ha och varför.
+
+VG, för jag har hög tilltro till att jag kan skapa program och lösa problem vid den här nivån.
+Jag tror jag prickat i kraven om jag inte missat något, alla funktioner och omvandling av datatyper o.s.v.
+
+--- Något du vill lyfta fram till Linus och Antonio.
+
+Det har varit bra info. Jag uppskattar att kunskapskontrollerna släppts tidigt, så att man kunnat ge sig på dom snabbt.
+Så fort Linus nämnde webb-skrapa så började jag bygga en sådan, och när kunskapskontroll 2 fanns uppe, så var det
+skoj att ge sig på resten och koppla ihop det.

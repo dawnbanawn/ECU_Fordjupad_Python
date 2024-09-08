@@ -1,0 +1,83 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:root:Saving to database did not succeed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:root:Saving to database did not succeed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:root:Saving to database did not succeed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:root:Saving to database did not succeed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
+INFO:root:Task completed!
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webscraper.io:443
+DEBUG:urllib3.connectionpool:https://webscraper.io:443 "GET /test-sites/e-commerce/allinone/computers/laptops HTTP/11" 200 None
