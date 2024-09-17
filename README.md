@@ -9,4 +9,6 @@ A .bat runs the web_scraper.py, but it points to a python.exe that might need a 
 
 Another script can be run to check the function that retrieves and process the scraped data.
 
+Link to presentation: https://youtu.be/1daqmTrectE
+
 
